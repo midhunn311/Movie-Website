@@ -44,6 +44,7 @@ body{
     height: 32px;
     border-radius: 50%;
     object-fit:cover;
+
 }
 
 .profile-text{
@@ -93,9 +94,135 @@ body{
 
 .sidebar{
     width: 50px;
-    height: 100px;
+    height: 100%;
     background-color: black;
     position: fixed;
+    display: flex;
+    flex-direction: column;
     top: 0;
+    align-items: center;
+    padding-top: 60px;
 
 }
+
+.left-menu-icon{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 40px;
+    
+}
+
+
+.container{
+    background-color: #151515;
+    min-height: calc(100vh - 50px);
+    color:white;
+    
+}
+
+.content-container{
+    margin-left: 50px;
+}
+
+.featured-content{
+   height: 50vh;
+   background-color: tomato;
+   padding: 50px;
+}
+
+
+.featured-text{
+    width: 200px;
+}
+.featureds-description{
+   width: 500px;
+   color:lightgray;
+   margin: 30px 0;
+}
+
+.featured-btn{
+   background-color:white;
+   color: black;
+   padding: 10px 20px;
+   border-radius: 10px;
+   border:none;
+   outline: none;
+   font-weight: bold;
+
+}
+
+.movie-list-main{
+    padding: 20px;
+}
+
+.movie-list{
+    height: 300px;
+    align-items: center;
+    display: flex;
+}
+
+.movie-list-item{
+    margin-right: 30px;
+    position: relative;
+}
+
+.movie-list-item:hover .movie-list-img{
+    transform: scale(1.2);
+    margin:0 30px;
+    opacity: 0.5;
+}
+.movie-list-img{
+    width: 270px;
+    height: 200px;
+    object-fit: cover;
+    transition: all 1s ease-in-out;
+}
+
+.movie-list-title{
+    background-color: #333;
+    padding: 0 10px;
+    font-size:32px;
+    font-weight: bold;
+    position:absolute;
+    top:10%;
+    left:50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+
+}
+
+.movie-list-description{
+    background-color: #333;
+    padding: 10px;
+    font-size:14px;
+    width: 230px;
+    position:absolute;
+    top:30%;
+    left:50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+
+}
+
+.movie-list-btn{
+    padding: 10px;
+    background-color: White;
+    color: black;
+    border-radius:  10px;
+    outline: none;
+    border: none;
+    position:absolute;
+    cursor:pointer;
+    bottom: 10px;
+    left:50px;
+    opacity: 0;
+    transition: 1s all ease-in-o
+}
+
+.movie-list-item:hover .movie-list-btn,
+.movie-list-item:hover .movie-list-description,
+.movie-list-item:hover .movie-list-title{
+    opacity: 1;
+}
+
+
