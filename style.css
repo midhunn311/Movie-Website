@@ -154,6 +154,10 @@ body{
 .movie-list-main{
     padding: 20px;
 }
+.movie-list-wrapper{
+    position: relative;
+   
+}
 
 .movie-list{
     height: 300px;
@@ -223,4 +227,12 @@ body{
     opacity: 1;
 }
 
+.arrow{
+    font-size :120px;
+    position:absolute;
+    top: 90px;
+    right:0;
+    color:lightgray;
+    cursor:pointer;
+}
 
