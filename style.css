@@ -221,11 +221,7 @@ body{
     transition: 1s all ease-in-o
 }
 
-.movie-list-item:hover .movie-list-btn,
-.movie-list-item:hover .movie-list-description,
-.movie-list-item:hover .movie-list-title{
-    opacity: 1;
-}
+
 
 .arrow{
     font-size :120px;
