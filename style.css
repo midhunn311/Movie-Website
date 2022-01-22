@@ -227,12 +227,4 @@ body{
     opacity: 1;
 }
 
-.arrow{
-    font-size :120px;
-    position:absolute;
-    top: 90px;
-    right:0;
-    color:lightgray;
-    cursor:pointer;
-}
 
