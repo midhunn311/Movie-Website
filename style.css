@@ -156,12 +156,14 @@ body{
 }
 .movie-list-wrap{
     position: relative;
+    overflow: hidden;
 }
 
 .movie-list{        
     height: 300px;
     align-items: center;
     display: flex;
+    transform: translateX(0);
 }
 
 .movie-list-item{
