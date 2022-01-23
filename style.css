@@ -152,14 +152,13 @@ body{
 }
 
 .movie-list-main{
-    padding: 20px;
+    padding: 0;
 }
-.movie-list-wrapper{
+.movie-list-wrap{
     position: relative;
-   
 }
 
-.movie-list{
+.movie-list{        
     height: 300px;
     align-items: center;
     display: flex;
@@ -228,3 +227,12 @@ body{
 }
 
 
+.arrow{
+    font-size :120px;
+    position:absolute;
+    top: 90px;
+    right:0;
+    color:lightgray;
+    opacity: 0.s;
+    cursor:pointer;
+}
