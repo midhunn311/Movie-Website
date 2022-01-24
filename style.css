@@ -163,7 +163,7 @@ body{
     height: 300px;
     align-items: center;
     display: flex;
-    transform: translateX(0);
+    transform: translateX(0.);
 }
 
 .movie-list-item{
